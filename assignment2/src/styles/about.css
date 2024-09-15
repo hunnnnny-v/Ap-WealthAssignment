@@ -1,0 +1,112 @@
+/* About */
+.about-container {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  margin-top: -60px;
+  background: linear-gradient(90deg, #e0bcf3 0%, #7ee7ee 100%);
+  border-radius: 50px;
+  overflow: hidden; /* Ensure the vectors do not overflow */
+}
+
+.vector,
+.vector2,
+.vector3 {
+  position: absolute;
+  width: 98px;
+  height: 98px;
+  border-radius: 50%;
+  filter: blur(1.7px);
+  margin-left: -30px;
+  background-size: cover; /* Add this to ensure the background image covers the entire vector */
+  background-position: center; /* Add this to center the background image */
+}
+
+.vector {
+  top: 50px;
+  left: 50px;
+  background-image: url("../assets/Vector.png");
+  filter: blur(1.4px);
+}
+
+.vector2 {
+  top: 50px;
+  left: 173px;
+  background-image: url("../assets/Vector-1.png");
+  filter: blur(px);
+}
+
+.vector3 {
+  top: 50px;
+  left: 296px;
+  background-image: url("../assets/Vector-2.png");
+  filter: blur(1.8px);
+}
+.card {
+  /* position: absolute; */
+  width: 375px;
+  height: 379px;
+  margin-left: -6.5px;
+  /* padding-b: 67px; */
+  /* margin-bottom: -50px; */
+  top: 433px;
+
+  width: 375px;
+  height: 379px;
+  top: 433px;
+  gap: 0px;
+  border-radius: 47px 45px 50px 50px;
+  /* opacity: 0px; */
+
+  padding: 19px;
+  /* margin-bottom: -90px; */
+  margin-top: 70px;
+  border-radius: 47px 45px 50px 50px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.fruit-ai {
+  font-family: Dosis;
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 85px;
+  width: 296px;
+  /* height: 379px; */
+  /* top: 87px; */
+  /* left: 39px; */
+  /* gap: 0px; */
+  opacity: 0px;
+
+  color: #000000;
+  align-items: center;
+  /* line-height: 37.92px; */
+  margin-top: -100px;
+  /* margin-right: -7px; */
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #555555;
+  /* padding-top: 2px; */
+  line-height: 1.5;
+  margin: 0 20px 20px 20px;
+}
+
+.about-btn {
+  width: 258px;
+  height: 50px;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}

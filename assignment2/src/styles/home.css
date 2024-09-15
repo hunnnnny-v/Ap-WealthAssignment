@@ -1,0 +1,190 @@
+/* Frame */
+.about-container {
+  position: absolute;
+  width: 359px;
+  height: 704px;
+  left: 16px;
+  top: 40px;
+  /* text-align: center; */
+  background: linear-gradient(90deg, #e0bcf3 0%, #7ee7ee 100%);
+  border: 0.5px solid rgba(210, 231, 255, 0.5);
+  border-radius: 50px;
+}
+
+/* Fruit.Ai */
+.fruit {
+  width: 296px;
+  height: 38px;
+  top: 54px;
+  left: 39px;
+  gap: 0px;
+  opacity: 1px;
+  display: block;
+  font-family: Dosis;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 37.92px;
+  text-align: center;
+  color: white;
+  padding-left: 45px;
+  padding-top: 60px;
+  /* backgroun50pxd: #fff1f1; */
+}
+
+/* “Be Healthy!” */
+
+.be-healthy {
+  position: absolute;
+  width: 95px;
+  height: 19px;
+  left: 136px;
+  top: 108px;
+  /* padding-left: 23px; */
+  padding-top: 23px;
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 1px;
+
+  /* #FFFFFF */
+  color: #ffffff;
+}
+
+/* Group */
+.rectangle-2198 {
+  position: absolute;
+  width: 293px;
+  height: 453px;
+  left: 41px;
+  top: 157px;
+  border: 1px solid #ffffff33;
+}
+
+/* Group */
+
+.rectangle {
+  width: 137px;
+  height: 139px;
+  top: 157px;
+  left: 41px;
+  gap: 0px;
+  border-radius: 20px;
+  border: 1px;
+  /* opacity: 0px; */
+  border: 1px solid #ffffff33;
+  background-color: #c9e4ca;
+  /* background-color:greenyellow;  */
+}
+
+/* Chat. */
+.chat {
+  /* Chat. */
+
+  position: absolute;
+  width: 106px;
+  height: 50px;
+  left: 61px;
+  top: 202px;
+
+  font-family: Dosis;
+  /* background: #c84ad3; */
+  font-style: normal;
+  /* border: 1px solid #ffffff33; */
+  font-weight: 800;
+  color: #C84AD3;
+  font-size: 48px;
+  line-height: 61px;
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+
+  /* color: #fffdfd; */
+}
+
+.dots {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.dots::after {
+  content: "● ● ●";
+  font-size: 20px;
+  color: white;
+  margin-left: -210px;
+}
+/* g_translate */
+.g_translate {
+  position: absolute;
+  width: 70px;
+  /* padding-bottom: 2px; */
+  /* padding-top: 50px; */
+  height: 70px;
+  margin-top: -155px;
+  left: 231px;
+  top: 349px;
+}
+
+/* FAQs */
+
+.faqs {
+  position: absolute;
+  width: 77px;
+  height: 73px;
+  left: 72px;
+  top: 497px;
+
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #3b5998;
+}
+
+/* About */
+
+.about {
+  position: absolute;
+  width: 89px;
+  height: 63px;
+  left: 221px;
+  top: 507px;
+  margin-top: -6px;
+  font-family: "Dosis";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #c84ad3;
+}
+
+.rectangle1 {
+  background-color: #cee4ce;
+}
+
+.rectangle2 {
+  background-color: #ffc5c5;
+}
+
+.rectangle3 {
+  background: #c2ffd0;
+}
+
+.rectangle4 {
+  background-color: #f7d2c4;
+}

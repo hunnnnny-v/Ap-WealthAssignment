@@ -1,0 +1,31 @@
+const languages = {
+    "af-ZA": "Afrikaans (South Africa)",
+    "ar-SA": "Arabic (Saudi Arabia)",
+    "bg-BG": "Bulgarian (Bulgaria)",
+    // "zh-CN": "Chinese (Simplified)",
+    "zh-TW": "Chinese (Traditional)",
+    "hr-HR": "Croatian (Croatia)",
+    // "cs-CZ": "Czech (Czech Republic)",
+    // "da-DK": "Danish (Denmark)",
+    "nl-NL": "Dutch (Netherlands)",
+    // "en-GB": "English (United Kingdom)",
+    "en-US": "English (United States)",
+    // "et-EE": "Estonian (Estonia)",
+    "fi-FI": "Finnish (Finland)",
+    "fr-FR": "French (France)",
+    // "de-DE": "German (Germany)",
+    "hi-IN": "Hindi (India)",
+    "it-IT": "Italian (Italy)",
+    "ja-JP": "Japanese (Japan)",
+    // "ko-KR": "Korean (South Korea)",
+    "no-NO": "Norwegian (Norway)",
+    // "pl-PL": "Polish (Poland)",
+    // "pt-PT": "Portuguese (Portugal)",
+    "ro-RO": "Romanian (Romania)",
+    // "ru-RU": "Russian (Russia)",
+    // "es-ES": "Spanish (Spain)",
+    "sv-SE": "Swedish (Sweden)",
+    // "tr-TR": "Turkish (Turkey)"
+};
+
+export default languages;

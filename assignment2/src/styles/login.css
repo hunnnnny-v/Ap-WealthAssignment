@@ -1,0 +1,162 @@
+/* General resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: linear-gradient(135deg, #6e8efb, #a777e3); */
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  /* background: linear-gradient(135deg, #6e8efb, #a777e3); */
+}
+
+.login-form h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.login-form p {
+  font-size: 0.9rem;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.login-form a {
+  color: #6e8efb;
+  text-decoration: none;
+}
+
+.tab-selector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-selector button {
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: #666;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-selector .active-tab {
+  font-weight: bold;
+  border-bottom: 2px solid #6e8efb;
+  color: #333;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #6e8efb;
+  outline: none;
+  box-shadow: 0 0 5px rgba(110, 142, 251, 0.5);
+}
+
+.show-password {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.extras {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+}
+
+.forgot-password {
+  color: #6e8efb;
+  text-decoration: none;
+}
+
+.login-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #6e8efb;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #5b79e2;
+}
+
+.social-login {
+  margin-top: 20px;
+}
+
+.social-login p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  color: #666;
+  font-size: 1.5rem;
+}
+
+/* .fingerprint-login img {
+    width: 50px;
+    cursor: pointer;
+  } */
+
+@media screen and (max-width: 480px) {
+  .login-container {
+    padding: 20px;
+  }
+
+  .login-form h2 {
+    font-size: 1.5em;
+  }
+}
